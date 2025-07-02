@@ -13,8 +13,9 @@ green "=========================================================="
  blue "支持：centos7+/debian9+/ubuntu16.04+"
  blue "FANFAN GO GO GO"
  blue "未经饭饭允许，不得传播和转载"
+ blue "Hey Bro. 你马上成功了"
 green "=========================================================="
-  red "简介：本脚本为Trojan分解安装第三部分（Trojan服务器配置）"
+  red "简介：本脚本为Trojan服务器配置"
 green "=========================================================="
 read -s -n1 -p "若同意上述协议，请按任意键继续 ... "
 trojan_passwd=$(cat /dev/urandom | head -1 | md5sum | head -c 8)
@@ -77,7 +78,9 @@ cat > /usr/local/etc/trojan/配置.txt <<-EOF
 支持：centos7+/debian9+/ubuntu16.04+
  blue "FANFAN GO GO GO"
  blue "未经饭饭允许，不得传播和转载"
-
+ blue "靠，你成功了，外贸人，加油撒"
+ blue "靠，bro，别高兴太早，看看你的证书和key！"
+ 
 ==========================================================
 
 你的Trojan配置信息为：
